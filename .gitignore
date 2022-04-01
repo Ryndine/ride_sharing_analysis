@@ -1,3 +1,7 @@
+# Ignore Files
+PyBer_Async_Solution.ipynb
+PyBer_Challenge_Solution.ipynb
+
 # Build and Release Folders
 bin-debug/
 bin-release/
