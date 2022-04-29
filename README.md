@@ -51,4 +51,31 @@ weekly_fares_df = fares_Jan_April.resample('W').sum()
 ```
 - From here I'm able to create a line plot to properly easily visualize the data over time.
 
-## Ride sharing analysis:
+## Ride data:
+
+<img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/ride_share_data.png" width="75%" height="75%">  
+With this analysis I'm looking at the general overview of data provided. There is a linear trend where areas with less population have fewer rides at a higher cost than more populated areas. Going forward I want to break down this data into smaller pieces for better visualizing this trend.
+
+<img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/ride_count_data.png" width="75%" height="75%">  
+As we see with this box and whisker plot Urban areas do have significantly more ride data than other city types. This dataset may not be the best representation of a rural area due to the low amount of data provided, but for what I have there is a strong correlation between the population density and the amount of rides cities have.
+
+<img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/ride_fare_data.png" width="75%" height="75%">  
+Here we see that rural areas do in fact have higher costs on average compared to the other city types. There may be correlation between travel distances since rural areas are more spread out. Further analysis on that would be required.
+
+<img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/driver_count_data.png" width="75%" height="75%">  
+Lastly I wanted to look into the individual driver count for each city type. As expected because Urban cities have much more activity, they also have many more drivers for their area as well. Same for Rural areas,there is a strong correlation between the amount of rides being given and the amount of drivers available.
+<br/><br/>
+<table>
+  <!-- Optional table row if you want to have headers for each image -->
+  <tr>
+    <td>% of Total Fares by City Type</td>
+    <td>% of Total Rides by City Type</td>
+    <td>% of Total Drivers by City Type</td>
+  </tr>
+  <!-- This table row for the images you want aligned -->
+  <tr>
+    <td><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/perc_type_pie.png" width="100%" height="100%"></td>
+    <td><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/perc_ride_pie.png" width="100%" height="100%"></td>
+    <td><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/perc_drivers_pie.png" width="100%" height="100%"></td>
+  </tr>
+ </table>
