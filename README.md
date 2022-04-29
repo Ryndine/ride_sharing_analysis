@@ -66,22 +66,17 @@ Here we see that rural areas do in fact have higher costs on average compared to
 Lastly I wanted to look into the individual driver count for each city type. As expected because Urban cities have much more activity, they also have many more drivers for their area as well. Same for Rural areas,there is a strong correlation between the amount of rides being given and the amount of drivers available.
 <br/><br/>
 <table>
-  <!-- Optional table row if you want to have headers for each image -->
-  <tr>
-    <td>% of Total Fares by City Type</td>
-    <td>% of Total Rides by City Type</td>
-    <td>% of Total Drivers by City Type</td>
-  </tr>
-  <!-- This table row for the images you want aligned -->
   <tr>
     <td><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/perc_type_pie.png" width="100%" height="100%"></td>
     <td><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/perc_ride_pie.png" width="100%" height="100%"></td>
     <td><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/perc_drivers_pie.png" width="100%" height="100%"></td>
   </tr>
   <tr>
-    <td>
+    <td colspan="3" align="center"><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/summary_table.jpg" width="60%" height="60%"></td>
   </tr>
  </table>
 
 With these pie graphs I wanted to better visualize difference in data between each city type. As you can see Urban cities on average have more fares, drivers, and ride shares than all the other city types.
 
+<img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/fare_summary.png" width="100%" height="100%">
+The last analysis I want to run is to check the total weekly fare by city type in order to see relations based on time. Overall each city type does see similar influences during different periods of the month. There are peaks in total fare around the end of feburary, but intereestingly Suburban sees a decrease in total fares in april while the others see increases. Further analysis would be required to better understand why.
