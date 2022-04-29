@@ -78,4 +78,10 @@ Lastly I wanted to look into the individual driver count for each city type. As 
     <td><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/perc_ride_pie.png" width="100%" height="100%"></td>
     <td><img src="https://github.com/Ryndine/ride_sharing_analysis/blob/main/Analysis/perc_drivers_pie.png" width="100%" height="100%"></td>
   </tr>
+  <tr>
+    <td>
+  </tr>
  </table>
+
+With these pie graphs I wanted to better visualize difference in data between each city type. As you can see Urban cities on average have more fares, drivers, and ride shares than all the other city types.
+
